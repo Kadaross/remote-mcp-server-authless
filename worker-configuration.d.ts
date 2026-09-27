@@ -8,7 +8,9 @@ declare namespace Cloudflare {
 	}
 	interface Env extends __BaseEnv_Env {}
 }
-interface Env extends __BaseEnv_Env {}
+interface Env extends __BaseEnv_Env {
+	GEMINI_API_KEY: string;
+}
 
 // Begin runtime types
 /*! *****************************************************************************
